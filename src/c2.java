@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
+import java.util.Scanner;
 /**
  *
  * @author Arya Rajasa
@@ -11,21 +11,25 @@
 public class c2 {
     public static void main (String[]args){
         int x;
-        
-                
-        for(x=1;x<=10;x++){
+        int y;
+        Scanner yudhis = new Scanner (System.in);
+          System.out.println( " masukan nilai akhir : ");
+        y = yudhis.nextInt();
+         
+       
+        for(x=1;x <= y ;x++){
             System.out.print(x + " ");
         }
       //while
       x=1;
-      while(x<=10){
-          System.out.print(x + " ");x++;
+      while(x<=y){
+          System.out.println(x + " ");x++;
       }
         //do while
         x=1;
-        do{System.out.print(x + " ");x++;
+        do{System.out.println(x + " ");x++;
         
-        }while(x<=10);
+        }while(x<=y);
                 
     }
     
